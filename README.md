@@ -1,5 +1,4 @@
-# nodejs01 >
-První serverový projekt v nodejs
+# nodejs01
 
 ### Použil jsem > 
  > nodejs
