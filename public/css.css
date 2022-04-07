@@ -1,0 +1,46 @@
+.backimage{
+    position: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -101
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.smallback{
+    background-image: url(sources/smallback.png);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.havr{
+    color: whitesmoke;
+}
+
+.havr:hover{
+    transition: 0.3s;
+    color: rgb(145, 145, 145);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.policka {
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    max-width: 100px;
+    background-color: red;
+    border: black solid 2px;
+    padding: 1%;
+}
+
+.policka:focus {
+    outline: 0 !important;
+}

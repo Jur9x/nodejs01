@@ -1,0 +1,17 @@
+.trmain{
+    background-color: blueviolet;
+}
+
+.nadpis{
+    font-size: 60px; 
+    padding: 2%; 
+    filter:drop-shadow(3px 10px 4px #000000);
+}
+
+.tabulka{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.odkaz{
+    text-decoration: none;
+}

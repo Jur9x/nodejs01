@@ -1,0 +1,27 @@
+html
+    head
+        title SQUARES | jur9x
+        link(rel='stylesheet' href='https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css')
+        style    
+            include css.css
+    body 
+        header.text-center
+            h1.nadpis LEADERBOARD 
+        main.container
+            table.table.table-striped.tabulka.text-center
+                thead.text-center
+                    tr.text-light.trmain.text-center
+                        th Nickname
+                        th Time
+                        th Date  
+                tbody 
+                    each pl in players 
+                        tr 
+                            td  #{pl.player}        
+                            td  #{pl.time}
+                            td  #{pl.date}
+        footer.text-center.odkaz 
+            a(href="/") <- BACK
+        script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
